@@ -1,0 +1,105 @@
+/* src/components/LoginForm.css */
+.login-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdf3f4;
+}
+
+.login-form {
+  width: 30%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-button {
+  padding: 12px;
+  background-color: #ff3d00;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #e53935;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+p a {
+  color: #ff3d00;
+  text-decoration: none;
+}
+
+.login-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image img {
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the spacing as needed */
+}
+
+.input-with-icon {
+  width: 100%;
+  padding-left: 35px; /* Adjust padding to make space for the icon */
+  padding-right: 10px;
+  height: 40px; /* Adjust height as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust position to align the icon */
+  transform: translateY(-50%);
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+  pointer-events: none; /* Ensures icon is not clickable */
+}
