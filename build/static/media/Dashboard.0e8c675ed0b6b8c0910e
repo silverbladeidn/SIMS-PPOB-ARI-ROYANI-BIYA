@@ -1,0 +1,18 @@
+// Dashboard.js
+import React from 'react';
+import Navbar from './Navbar';
+import BalanceCard from './BalanceCard';
+
+const Dashboard = () => {
+  return (
+    <div>
+      <Navbar />
+      <div style={{ padding: '20px' }}>
+        <BalanceCard />
+        {/* Add other components or content here */}
+      </div>
+    </div>
+  );
+};
+
+export default Dashboard;
